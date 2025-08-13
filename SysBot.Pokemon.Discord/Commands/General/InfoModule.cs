@@ -33,7 +33,7 @@ public class InfoModule : ModuleBase<SocketCommandContext>
         };
 
         builder.AddField("Info",
-            $"- [Source Code]({repo})\n" +
+            $"- [Source Code]({repo})\n- [Join Our Discord!](https://discord.gg/pkm-universe)\n" +
             $"- {Format.Bold("Owner")}: {app.Owner} ({app.Owner.Id})\n" +
             $"- {Format.Bold("Library")}: Discord.Net ({DiscordConfig.Version})\n" +
             $"- {Format.Bold("Uptime")}: {GetUptime()}\n" +
